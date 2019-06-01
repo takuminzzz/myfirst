@@ -1,0 +1,1267 @@
+# Translation of Themes - Coldbox in Japanese
+# This file is distributed under the same license as the Themes - Coldbox package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-08 01:48:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Coldbox\n"
+
+#. Description of the theme
+msgid "Coldbox is a clean and blog-focused WordPress theme. It helps increase site traffic from Google and any social networks. It provides you with easy to customize, lightweight, SEO friendly, quick load, and so much more! This theme is fully laid out with the flexbox module so that it is compatible with any screen sizes. See Demo: https://coldbox.miruc.co/demo/"
+msgstr "Coldbox は主にブログ用途にフォーカスして作られた、キレイでシンプルなテーマです。できるだけ質素で簡潔にまとまるような、シンプルなレイアウト・ファイル構造になっています。Flexbox モジュールでレイアウトされており、どんな端末でも最適な表示が期待できます。デモ: https://coldbox.miruc.co/demo/"
+
+#. Theme Name of the theme
+msgid "Coldbox"
+msgstr "Coldbox"
+
+#: single.php:81 content-standard.php:38 content-grid.php:38
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: single.php:47 single.php:63 single.php:72 content-standard.php:30
+msgid "Published date"
+msgstr "公開日"
+
+#: parts/about-coldbox.php:216
+msgid "v1.7.0"
+msgstr "v1.7.0"
+
+#: parts/about-coldbox.php:217
+msgid "The Font Awesome icon fonts have been upgraded to version 5.2.0 for better compatibility with other plugins which use Font Awesome version 5. If you use Font Awesome font in your content, some changes might be required."
+msgstr "他プラグインとの互換性解決のため、 Font Awesome アイコンフォントのバージョンを 5.2.0 にアップデートしました。今まで Font Awesome アイコンを投稿内などで使っていた場合、変更が必要になる場合があります。"
+
+#: parts/czr/customizer.php:412
+msgid "Font Size for Site Title"
+msgstr "サイトタイトルのフォントサイズ"
+
+#: parts/czr/customizer.php:413
+msgid "Relative value (%) to global font size"
+msgstr "全体フォントサイズに相対な値をパーセント単位で指定して下さい。"
+
+#: single.php:53
+msgid "Last modified date"
+msgstr "最終更新日"
+
+#: single.php:89
+msgid "Author"
+msgstr "作者"
+
+#: functions.php:582
+msgid "Footer Sidebar One"
+msgstr "フッターサイトバー1"
+
+#: functions.php:593
+msgid "Footer Sidebar Two"
+msgstr "フッターサイトバー2"
+
+#: functions.php:604
+msgid "Footer Sidebar Three"
+msgstr "フッターサイトバー3"
+
+#: functions.php:615
+msgid "Footer Sidebar Four"
+msgstr "フッターサイトバー4"
+
+#: parts/czr/customizer.php:1343
+msgid "Header Menu Text Color for Mobile"
+msgstr "モバイル: ヘッダーメニューのテキスト色"
+
+#: parts/czr/customizer-validators.php:18
+msgid "The value must be greater than zero."
+msgstr "0より大きい値を入力してください。"
+
+#: comments.php:108
+msgid "Post comment"
+msgstr "コメントする"
+
+#. translators: 1: Post title (screen render text)
+#: content-standard.php:62
+msgid "READ MORE%s"
+msgstr "READ MORE%s"
+
+#: footer.php:102
+msgid "Back To Top"
+msgstr "トップへ戻る"
+
+#: footer.php:113
+msgid "Close"
+msgstr "閉じる"
+
+#: functions.php:248
+msgid "Close menu"
+msgstr "メニューを閉じる"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: header.php:50
+msgid "Menu"
+msgstr "メニュー"
+
+#: header.php:55
+msgid "Search Toggle"
+msgstr "検索トグル"
+
+#: parts/about-coldbox.php:155
+msgid "https://coldbox.miruc.co/docs/how-to-set-up-ads-extension/"
+msgstr "https://coldbox.miruc.co/docs/how-to-set-up-ads-extension/"
+
+#: parts/czr/customizer.php:309
+msgid "This will only **hide** the site title and description, whereas the two options above make the title/description not to be output."
+msgstr "このオプションはサイトとタイトルと説明を **非表示** にしますが、上の2つのオプションはサイトのタイトル・説明を出力しないようにします。"
+
+#: searchform.php:13 searchform.php:17
+msgid "Search"
+msgstr "検索"
+
+#: parts/admin-notices.php:47
+msgid "See more about the extension"
+msgstr "広告拡張プラグインについて詳しく見る"
+
+#: parts/about-coldbox.php:129
+msgid "Coldbox Ads Extension Plugin"
+msgstr "Coldbox Ads Extension Plugin"
+
+#: parts/czr/customizer.php:768
+msgid "Show Thumbnail Image"
+msgstr "サムネイル画像を表示"
+
+#: parts/admin-notices.php:40 parts/admin-notices.php:46
+#: parts/about-coldbox.php:141
+msgid "https://coldbox.miruc.co/addons/google-adsense-extension/"
+msgstr "https://coldbox.miruc.co/ja/addons/google-adsense-extension/"
+
+#: parts/about-coldbox.php:142
+msgid "About the Coldbox Ads Extension"
+msgstr "Coldbox Ads Extension プラグインについて"
+
+#. translators: 1: opening a tag, 2: closing a tag
+#: parts/about-coldbox.php:154
+msgid "Thanks for purchasing the ads extension plugin! If you need help about how to set up the ads, please see %1$sthis article%2$s"
+msgstr "Coldbox Ads Extension プラグインをご購入いただきありがとうございます !  セットアップに関して詳しくは %1$sこの記事%2$s をご覧ください。"
+
+#: parts/about-coldbox.php:219
+msgid "v1.5.4"
+msgstr "v1.5.4"
+
+#: parts/about-coldbox.php:220
+msgid "I've added the option to show thumbnail image on every single post which have been requested quite a few times!"
+msgstr "何度かリクエストされた、投稿ページ内でのサムネイル画像表示機能を追加しました。おまたせして申し訳ありません 🙇‍♂️"
+
+#: parts/admin-notices.php:28
+msgid "We've released new extension plugin!"
+msgstr "広告拡張プラグインをリリースしました !"
+
+#. translators: 1: opening a tag, 2: closing a tag
+#: parts/admin-notices.php:35
+msgid ""
+"Thanks for using the Coldbox theme! We have released an extension plugin called Coldbox Ads Extension for the easy Google AdSense management and getting high revenue with it.\n"
+"\t\t\t\t\tWe believe this is the best choice to monetize your blog with the Coldbox theme. %1$sSee this article%2$s for more details."
+msgstr "Google AdSense 用の広告拡張プラグインをリリースしました。このバージョンのテーマをお使いの場合、このプラグインに対応しています。これを使用することで、Coldbox テーマに特化した Google AdSense が難しい設定無しで利用できるようになり、収益の向上が期待できます。Coldbox テーマを使用してブログを書いている人にとって、この方法が一番効果的な収益を得る方法になるでしょう。詳しくは %1$sこちらの記事をお読みください%2$s。"
+
+#: parts/about-coldbox.php:132
+msgid ""
+"We've developed an extension plugin for the Google AdSense ads for the Coldbox theme users. The plugin gives you the great experiences and engagements on Google AdSense without writing code at all.\n"
+"\t\t\t\tThis currently supports in-article, in-feed, matched content, responsive ads, and the auto-ads settings with one-click. See the below article for more information:"
+msgstr "Google AdSense 用の広告拡張プラグインをリリースしました !  このプラグインを使用することで、Coldbox テーマに特化した Google AdSense が難しい設定無しで利用できるようになり、収益の向上が期待できます。現在は、記事内広告、インフィード広告、関連コンテンツ広告、レスポンシブ広告、自動広告設定などが可能です。詳しくは以下の記事をご覧ください。"
+
+#: parts/about-coldbox.php:222
+msgid "v1.5.3"
+msgstr "v1.5.3"
+
+#: parts/about-coldbox.php:223
+msgid "Feedly has changed its URL format. If you have Feedly subscription button in your Social Links, make sure to use the URL shown in the bottom of the \"Social Links\" section in the Customizer."
+msgstr "Feedly の URL フォーマットが変更されました。現在ソーシャルリンク内で Feedly のリンクを使っている場合、カスタマイザーの「ソーシャルリンク」内下部にある「Feedly URL」に置き換えてください。"
+
+#. Translators: 1: Opening a tag of link to "Settings" > "Privacy", 2: Closing
+#. a tag.
+#: parts/czr/customizer.php:1239
+msgid "Looks like you don't have the %1$sPrivacy Policy page%2$s yet. To show this link in footer, make sure to have a Privacy Policy page."
+msgstr "まだ %1$sプライバシーポリシーページ%2$s を設定していないようです。このリンクをフッター内に表示するにはプライバシーポリシーポリシーページを設定してください。"
+
+#: parts/czr/customizer.php:1256
+msgid "Show Privacy Policy Page Link"
+msgstr "プライバシーポリシーページへのリンクを表示"
+
+#: parts/about-coldbox.php:198
+msgid "https://wordpress.org/about/requirements/"
+msgstr "https://ja.wordpress.org/about/requirements/"
+
+#. translators: %1$s: forum link, %2$s: Opening a tag, %3$s: Closing a tag
+#: parts/about-coldbox.php:172
+msgid "If you need help with the theme, you can simply ask your query on the %1$s, or %2$s email me%3$s. Please also feel free to get in touch if you think you found a bug, or have a new feature request."
+msgstr "テーマについて質問や助けが必要な場合、%1$s上で質問するか、%2$s作者にメール%3$s、もしくは<a href=\"https://twitter.com/@mirucons\">作者 Twitter</a> まで気軽に日本語で質問してください。バグレポートや新機能のリクエストも受け付けています。"
+
+#: parts/about-coldbox.php:115
+msgid "Great, you have already installed and activated the addon plugin! To customize some settings related to the addon plugin, go to the Theme Customizer."
+msgstr "このサイトでは既にアドオンプラグインは有効化されているようです ! アドオンプラグインの設定はテーマカスタマイザーから変更出来ます。"
+
+#: parts/about-coldbox.php:16 parts/about-coldbox.php:17
+msgid "About Coldbox"
+msgstr "Coldbox について"
+
+#. translators: %s: Theme version
+#: parts/about-coldbox.php:48
+msgid "Welcome to Coldbox %s"
+msgstr "Coldbox %s へようこそ"
+
+#: parts/about-coldbox.php:50
+msgid "Theme screenshot"
+msgstr "テーマスクリーンショット"
+
+#: parts/about-coldbox.php:56
+msgid "Thanks so much for using the Coldbox theme! Here are some quick tips to help you getting started with the theme."
+msgstr "Coldbox テーマをご利用いただきありがとうございます。インストール後にやった方が良いことをご紹介します。"
+
+#: parts/about-coldbox.php:55
+msgid "Getting Started"
+msgstr "Coldbox テーマにようこそ"
+
+#. translators: %1$s: Opening strong tag, %2$s Closing strong tag, %3$s:
+#. Opening a tag, %4$s Closing a tag
+#: parts/about-coldbox.php:62
+msgid "%1$sIf you have just switched from other theme%2$s, we recommend you to regenerate all of your thumbnails with the %3$sRegenerate Thumbnails%4$s plugin. It will create consistent sizes of your thumbnails, with the appropriate size for this theme."
+msgstr "%1$s他のテーマから移行してきた場合、%2$s%3$sRegenerate Thumbnails%4$s プラグインを利用してすべてのプラグインを再生成することをおすすめします。これにより Coldbox テーマに最適で均一なサイズのサムネイルが作られ、より Coldbox テーマに合わせたサムネイルの表示が期待できます。"
+
+#. translators: %1$s: Opening strong tag, %2$s Closing strong tag
+#: parts/about-coldbox.php:76
+msgid "%1$sIf you just started your WordPress life with this theme%2$s, then there's no need to regenerate thumbnails. The theme will automatically create the appropriate size of your thumbnail every time you set a new thumbnail image."
+msgstr "%1$s新規で WordPress サイトを始められた場合、%2$sサムネイルを再生成する必要はありません。新しいサムネイルを投稿に追加するたびに自動で最適なサイズのサムネイルが生成されるようになります。"
+
+#: parts/about-coldbox.php:101
+msgid "The Add-on Plugin"
+msgstr "アドオンプラグイン"
+
+#: parts/about-coldbox.php:106
+msgid "Automatic AMP pages generation"
+msgstr "自動 AMP ページ生成"
+
+#: parts/about-coldbox.php:107
+msgid "Share buttons"
+msgstr "SNS シェアボタン"
+
+#: parts/about-coldbox.php:108
+msgid "Google Analytics integration"
+msgstr "Google Analytics 連携機能"
+
+#: parts/about-coldbox.php:109
+msgid "Automatic Open Graph Tag output"
+msgstr "Open Graph タグ (OGP タグ) を自動で出力"
+
+#: parts/about-coldbox.php:121
+msgid "Install Now"
+msgstr "今すぐインストール"
+
+#: parts/about-coldbox.php:167
+msgid "Need Help?"
+msgstr "助けが必要ですか ?"
+
+#. translators: %1$s: Opening a tag of customizer link, %2$s Closing a tag,
+#. %3$s: Opening strong tag, %4$s Closing strong tag
+#: parts/about-coldbox.php:89
+msgid "Once you have regenerated the thumbnails, go ahead to the %1$sTheme Customizer%2$s to customize the theme as you like. Sections whose name started with \"%3$sColdbox:%4$s\" are the settings we have added for you to customize. Don't forget, there's also a section called Colors so you can customize some colors used in the theme."
+msgstr "次に %1$sテーマカスタマイザー%2$s へ移動し、すきなようにテーマをカスタマイズしましょう。\"%3$sColdbox:%4$s\" で始まっているセクションが Coldbox テーマ独自のカスタマイズ項目です。またそれ以外にも、「色」セクションより Coldbox テーマ内で使用されている色のカスタマイズも出来ます。"
+
+#: parts/about-coldbox.php:173
+msgid "forum"
+msgstr "フォーラム"
+
+#: parts/about-coldbox.php:185
+msgid "Upgrade Your PHP!"
+msgstr "PHP をアップグレード"
+
+#. translators: %1$s: PHP version, %2$s: Opening a tag, %3$s: Closing a tag.
+#: parts/about-coldbox.php:196
+msgid "We've detected you are using PHP version %1$s which has already been unmaintained. Although WordPress core and the Coldbox theme still supports your PHP version, using unmaintained version of PHP means you have a big security risk. Please consider to upgrade your PHP version to PHP 5.6 or greater for the maximum compatibility (including theme, plugins and WordPress core) and your security. WordPress recommends you to use PHP 7.2 or greater. See %2$sRequirements %3$s on WordPress.org."
+msgstr "このサイトでは古いバージョンの既にサポートが切れた PHP (%1$s) が使われているようです。WordPress 本体や Coldbox テーマは現状ではこのサイトで使われている PHPバージョンをサポートしていますが、サポートが切れたバージョンの PHP を使うことは大きなセキュリティリスクです。テーマと WordPress のセキュリティ向上とさらなる速度向上のため、PHP を最新版にアップグレードすることをおすすめします。WordPress は PHP 7.2 以上の使用を推奨しています。"
+
+#: parts/about-coldbox.php:211
+msgid "Upgrade Notice"
+msgstr "テーマのアップグレードに関する情報"
+
+#: parts/about-coldbox.php:225
+msgid "v1.5.0"
+msgstr "v1.5.0"
+
+#: parts/about-coldbox.php:230
+msgid "Changelog"
+msgstr "更新履歴"
+
+#. translators: %s: Theme version
+#: parts/about-coldbox.php:254
+msgid "Coldbox v%s"
+msgstr "Coldbox v%s"
+
+#: parts/about-coldbox.php:271
+msgid "Upgrade Notices"
+msgstr "アップグレード情報"
+
+#. translators: Local font e.g. Arial or Helvetica
+#: parts/czr/customizer.php:149 parts/czr/customizer.php:150
+#: parts/czr/customizer.php:151 parts/czr/customizer.php:152
+msgid "(Local)"
+msgstr "(ローカルフォント)"
+
+#: parts/czr/customizer.php:235
+msgid "Show \"Coldbox\" button on the admin bar"
+msgstr "管理バーに \"Coldbox\" メニューを追加"
+
+#: parts/czr/customizer.php:275
+msgid "This selection of highlight.js contains the languages often used for web development."
+msgstr "この highlight.js は Web 開発でよく使われる言語を選んだパッケージです。"
+
+#: parts/czr/customizer.php:294
+msgid "Use concatenated JS files"
+msgstr "連結された JavaScript ファイルを使う"
+
+#: parts/czr/customizer.php:295
+msgid "Use of concatenated JS files makes loading faster for the sites do not support HTTP/2. Recommended to set this ON if your website is not using https connection, or you are not sure whether this site supports HTTP/2."
+msgstr "サイトが HTTP/2 に対応していない場合、この設定を使うことでサイトの読み込み速度の向上が期待できます。もしサイトが https 接続を使用していない場合、もしくは HTTP/2 に対応しているかが不明な場合はこの設定をオンにしておくのをおすすめします。"
+
+#. translators: 1: Start of <a> tag, 2: The end of <a> tag.
+#: parts/czr/customizer.php:315
+msgid "Use the %1$s \"Display Site Title\" %2$s option to hide site title."
+msgstr "サイトタイトルを非表示にするには %1$s\"サイトタイトルを表示\"%2$s を使用してください。"
+
+#: parts/czr/customizer.php:364
+msgid "Your logo will be still shown when this is unchecked."
+msgstr "この設定がオフでもロゴは表示されます。"
+
+#: parts/czr/customizer.php:478
+msgid "Custom Header Padding"
+msgstr "ヘッダー余白"
+
+#: parts/czr/customizer.php:341
+msgid "Custom Logo Width"
+msgstr "ロゴ幅"
+
+#: parts/czr/customizer.php:497
+msgid "Use Narrower Padding when Scrolling"
+msgstr "スクロール中はヘッダーの余白を狭める"
+
+#: parts/czr/customizer.php:731
+msgid "Coldbox: Single Posts Settings"
+msgstr "Coldbox: 投稿ページ設定"
+
+#: parts/czr/customizer.php:1156
+msgid "It will be shown only when comments are opened and shown, and this option is checked."
+msgstr "これはコメントが可能な状態でかつ表示されており、この設定がオンになっている場合にのみ表示されます。"
+
+#: parts/about-coldbox.php:226
+msgid "In the version 1.5.0, we have added a new customizer option to adjust your logo width, and its default value has been set to 230px. If you are previously using the logo that the width is bigger than 230px, then your logo is now become smaller. To customize the width, go to the Theme Customizer, and proceed to \"Coldbox: Header Settings\" > \"Custom Logo Width\"."
+msgstr "バージョン1.5.0ではロゴの幅をカスタマイズするためのカスタマイザー設定が追加され、ロゴのデフォルト幅は 230px に設定されました。もし 230px より大きいロゴを今まで使っていた場合、ロゴが小さくなっているはずです。幅をカスタマイズしたい場合、テーマカスタマイザーへ移動し、\"Coldbox: ヘッダー設定\" >  \"ロゴ幅\" の値を変更してください。"
+
+#: parts/czr/customizer.php:1207
+msgid "Edit the Credit"
+msgstr "コピーライトクレジットを編集"
+
+#: parts/czr/customizer.php:1227
+msgid "Edit the Theme Credit"
+msgstr "テーマクレジットを編集"
+
+#. Translators: %s: HTML Tags.
+#: parts/czr/customizer.php:1228
+msgid "It will be displayed only when the \"Display Theme Credit\" option is checked. You can use the following HTML tags: %s."
+msgstr "これは \"テーマクレジットを表示\" オプションが有効化されている場合にのみ表示されます。以下の HTML タグが使用可能です: %s"
+
+#: parts/czr/customizer.php:1423
+msgid "Title Box Background Color"
+msgstr "タイトルボックスの背景色"
+
+#: parts/czr/customizer.php:1443
+msgid "Content Wrapper Background Color"
+msgstr "コンテンツラッパーの背景色"
+
+#: parts/czr/customizer.php:1463
+msgid "Sidebar Wrapper Background Color"
+msgstr "サイドバーラッパーの背景色"
+
+#: parts/czr/customizer.php:1362
+msgid "Header Menu Background Color for Mobile"
+msgstr "ヘッダーメニューの背景色 (モバイル端末用)"
+
+#: parts/czr/social-links.php:82
+msgid "You can add your social account profiles here. This will be shown in the footer area, and your author box. You can also show this in the sidebar by adding a widget. Please enter the full URLs."
+msgstr "ここに SNS のアカウントを追加することが出来ます。これはフッターと投稿者の情報ボックスに表示されます。またウィジェットを追加することでサイドバーに追加することも出来ます。http://, https:// を含めた完全な URL を入力してください。"
+
+#: parts/czr/customizer.php:498
+msgid "This works only when Horizontal menu direction selected. If this is off, the header won't narrower when scrolling the window. Recommended to set this off when you set the value of Custom Header Padding above narrower than 15px."
+msgstr "これはヘッダーとメニューの順序が 水平方向 に設定されている場合にのみ動作します。これがオフになっている場合、スクロール時にヘッダーの余白が狭まらなくなります。ヘッダー余白設定の値を 15px 以下にしている場合、この設定をオフにすることをおすすめします。"
+
+#: parts/czr/customizer.php:458
+msgid "Only nav menu will be sticky if you've selected \"Vertical\" direction, or whole header will be sticky with narrower padding if \"Horizontal\" direction is selected."
+msgstr "ヘッダーとメニューの順序が 垂直方向 になっている場合はメニューだけがスクロールに追従し、水平方向 の場合はヘッダー全体がより狭い余白 (下の設定よりより狭い余白の使用可否は選択可) でスクロールに追従するようになります。"
+
+#: parts/about-coldbox.php:103
+msgid "We are also developing the Addon plugin called Coldbox Addons, which is created and designed just for the Coldbox theme. We highly recommend you to always use the plugin to make the most of the theme. The latest version of the plugin has the following features: "
+msgstr "Coldbox テーマには Coldbox Addon という Coldbox テーマのためだけに設計されたアドオンプラグインがあります。テーマと一緒にアドオンプラグインを使用することでテーマの機能がさらに拡張されます。最新版では以下の機能をサポートしています。"
+
+#: parts/about-coldbox.php:119
+msgid "You have not installed or activated the addon plugin yet. Click the link below to proceed installing the plugin!"
+msgstr "このサイトではまだアドオンプラグインはインストールもしくは有効化されていないようです。インストールに進むには下のリンクをクリックしてください。"
+
+#: functions.php:900
+msgid "Home"
+msgstr "Home"
+
+#. translators: 1: plugin name(s).
+#: parts/tgm/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "推奨プラグインの %1$s が現在無効化されています。"
+
+#. translators: 1: plugin name(s).
+#: parts/tgm/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "要求プラグインの %1$s が現在無効化されています。"
+
+#. translators: 1: plugin name(s).
+#: parts/tgm/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "%1$s プラグインのアップデートが利用可能です。"
+
+#. translators: 1: plugin name(s).
+#: parts/tgm/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "テーマとの互換性のため、%1$s プラグインの更新が必要です。"
+
+#: functions.php:902
+msgid "Attachment"
+msgstr "アタッチメント"
+
+#: parts/czr/customizer.php:1382
+msgid "Footer Menu Background Color"
+msgstr "フッターメニュー背景色"
+
+#. translators: 1: plugin name(s).
+#: parts/tgm/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは %1$s プラグインのインストールを推奨しています。"
+
+#. translators: 1: plugin name(s).
+#: parts/tgm/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマは %1$s プラグインのインストールを要求しています。"
+
+#: parts/czr/customizer.php:580
+msgid "Grid Columns for Desktop & Tablet"
+msgstr "グリッドのカラム数 : デスクトップとタブレット"
+
+#: parts/czr/customizer.php:601
+msgid "Grid Columns for Mobile"
+msgstr "グリッドのカラム数 : モバイル"
+
+#. Template Name of the theme
+msgid "Full Width Page"
+msgstr "全幅ページ"
+
+#: functions.php:201 functions.php:277
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: parts/tgm/load-tgm.php:64
+msgid "Coldbox Addon"
+msgstr "Coldbox Addon"
+
+#: functions.php:1092
+msgid "Monthly Archive:"
+msgstr "Monthly Archive:"
+
+#: functions.php:1094
+msgid "Yearly Archive:"
+msgstr "Yearly Archive:"
+
+#: functions.php:1096
+msgid "Author:"
+msgstr "投稿者:"
+
+#: parts/page-title.php:49
+msgid "ERROR 404."
+msgstr "ERROR 404."
+
+#: parts/page-title.php:50
+msgid "Sorry, Page Not Found."
+msgstr "ページが存在しません。"
+
+#: parts/post-nav.php:22
+msgid "Prev Post"
+msgstr "前の投稿"
+
+#: parts/post-nav.php:32
+msgid "Next Post"
+msgstr "次の投稿"
+
+#: parts/related-posts.php:114 parts/related-posts.php:152
+msgid "Related Posts"
+msgstr "関連記事"
+
+#: parts/tgm/class-tgm-plugin-activation.php:326
+msgid "Install Required Plugins"
+msgstr "推奨プラグインのインストール"
+
+#: parts/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Plugins"
+msgstr "プラグインをインストール"
+
+#. translators: %s: plugin name.
+#: parts/tgm/class-tgm-plugin-activation.php:329
+msgid "Installing Plugin: %s"
+msgstr "%s プラグインをインストール中"
+
+#. translators: %s: plugin name.
+#: parts/tgm/class-tgm-plugin-activation.php:331
+msgid "Updating Plugin: %s"
+msgstr "%s プラグインを更新中"
+
+#: parts/tgm/class-tgm-plugin-activation.php:332
+msgid "Something went wrong with the plugin API."
+msgstr "プラグイン API に問題が発生しました。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:384
+msgid "Return to Required Plugins Installer"
+msgstr "プラグインのインストールへ戻る"
+
+#: parts/tgm/class-tgm-plugin-activation.php:385
+#: parts/tgm/class-tgm-plugin-activation.php:829
+#: parts/tgm/class-tgm-plugin-activation.php:2552
+#: parts/tgm/class-tgm-plugin-activation.php:3572
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードへ戻る"
+
+#: parts/tgm/class-tgm-plugin-activation.php:386
+#: parts/tgm/class-tgm-plugin-activation.php:3179
+msgid "Plugin activated successfully."
+msgstr "プラグインが有効化されました。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:387
+#: parts/tgm/class-tgm-plugin-activation.php:2972
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "次のプラグインは有効化されませんでした: "
+
+#. translators: 1: plugin name.
+#: parts/tgm/class-tgm-plugin-activation.php:389
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "%1$s プラグインは既に有効化されています。"
+
+#. translators: 1: plugin name.
+#: parts/tgm/class-tgm-plugin-activation.php:391
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "バージョンが足りないためプラグインは有効化されませんでした。%s プラグインをアップデードしてください。"
+
+#. translators: 1: dashboard link.
+#: parts/tgm/class-tgm-plugin-activation.php:393
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインは正常にインストールされ有効化されています。%1$s"
+
+#: parts/admin-notices.php:50 parts/tgm/class-tgm-plugin-activation.php:394
+msgid "Dismiss this notice"
+msgstr "この通知を表示しない"
+
+#: parts/tgm/class-tgm-plugin-activation.php:395
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "インストール、アップデートもしくは有効化が必要な一つのプラグインがあります。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:396
+msgid "Please contact the administrator of this site for help."
+msgstr "詳しくはこのサイトの管理者に問い合わせてください。"
+
+#. translators: %s: version number
+#: parts/tgm/class-tgm-plugin-activation.php:2001
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2292
+msgid "Required"
+msgstr "必須"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2295
+msgid "Recommended"
+msgstr "推奨"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2311
+msgid "WordPress Repository"
+msgstr "WordPress レポジトリ"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2314
+msgid "External Source"
+msgstr "外部ソース"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2317
+msgid "Pre-Packaged"
+msgstr "パッケージ化済み"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2334
+msgid "Not Installed"
+msgstr "未インストール"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2338
+msgid "Installed But Not Activated"
+msgstr "有効化されていません"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2340
+msgid "Active"
+msgstr "有効化済み"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2346
+msgid "Required Update not Available"
+msgstr "必要なアップデートを入手できません"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2349
+msgid "Requires Update"
+msgstr "必須のアップデート"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2352
+msgid "Update recommended"
+msgstr "アップデートを推奨"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2509
+msgid "Installed version:"
+msgstr "インストール済みバージョン: "
+
+#: parts/tgm/class-tgm-plugin-activation.php:2517
+msgid "Minimum required version:"
+msgstr "最小要求バージョン: "
+
+#: parts/tgm/class-tgm-plugin-activation.php:2529
+msgid "Available version:"
+msgstr "利用可能なバージョン:"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2566
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2567
+msgid "Source"
+msgstr "ソース"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2568
+msgid "Type"
+msgstr "タイプ"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2572
+msgid "Version"
+msgstr "バージョン"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2573
+msgid "Status"
+msgstr "ステータス"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: parts/tgm/class-tgm-plugin-activation.php:2622
+msgid "Install %2$s"
+msgstr "%2$s をインストール"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: parts/tgm/class-tgm-plugin-activation.php:2627
+msgid "Update %2$s"
+msgstr "%2$s をアップデート"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2736
+msgid "Install"
+msgstr "インストール"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2742
+msgid "Update"
+msgstr "アップデート"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2745
+msgid "Activate"
+msgstr "有効化"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2776
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "プラグインが選択されていません。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2778
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "プラグインが選択されていません。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:3178
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: parts/tgm/class-tgm-plugin-activation.php:3490
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインをアップデート中: %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: parts/tgm/class-tgm-plugin-activation.php:3493
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s のインストール中にエラーが発生しました: <strong>%2$s</strong>"
+
+#. translators: 1: plugin name.
+#: parts/tgm/class-tgm-plugin-activation.php:3495
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:3499
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "インストール及び有効化のプロセスが開始されました。サーバーによってはしばらく時間がかかる可能性があります。"
+
+#. translators: 1: plugin name.
+#: parts/tgm/class-tgm-plugin-activation.php:3501
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s は正常にインストールされ有効化されました。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:3502
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールと有効化は正常に完了しました。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: parts/tgm/class-tgm-plugin-activation.php:3504
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインをインストール / 有効化中 (%2$d/%3$d)"
+
+#: parts/tgm/class-tgm-plugin-activation.php:3507
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "インストールプロセスが開始されました。サーバーによってはしばらく時間がかかる可能性があります。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: parts/tgm/class-tgm-plugin-activation.php:3512
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインをインストール中 (%2$d/%3$d)"
+
+#: parts/tgm/load-tgm.php:92
+msgid "Install Recommended Plugins"
+msgstr "推奨プラグインをインストール"
+
+#: search.php:57
+msgid "No matches found."
+msgstr "一致するものがありません。"
+
+#: single.php:122
+msgid "Categories:"
+msgstr "Categories:"
+
+#: single.php:125
+msgid "Tags:"
+msgstr "Tags:"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2703
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作者からのアップグレード情報:"
+
+#. translators: 1: plugin name.
+#: parts/tgm/class-tgm-plugin-activation.php:3501
+#: parts/tgm/class-tgm-plugin-activation.php:3509
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#. translators: 1: plugin name.
+#: parts/tgm/class-tgm-plugin-activation.php:3501
+#: parts/tgm/class-tgm-plugin-activation.php:3509
+msgid "Hide Details"
+msgstr "詳細を隠す"
+
+#. translators: 1: plugin name.
+#: parts/tgm/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed successfully."
+msgstr "%1$s は正常にインストールされました。"
+
+#: searchform.php:14
+msgid "Search this site"
+msgstr "サイト内を検索"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2819
+msgid "No plugins are available to be installed at this time."
+msgstr "インストール可能なプラグインがありません。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2821
+msgid "No plugins are available to be updated at this time."
+msgstr "アップデート可能なプラグインがありません。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2928
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "プラグインが選択されていません。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2954
+msgid "No plugins are available to be activated at this time."
+msgstr "有効化可能なプラグインがありません。"
+
+#: functions.php:1092
+msgctxt "Date Format"
+msgid "F, Y"
+msgstr "Y年F"
+
+#: parts/tgm/class-tgm-plugin-activation.php:369
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインをインストールする"
+
+#: parts/tgm/class-tgm-plugin-activation.php:374
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインをアップデートする"
+
+#: parts/tgm/class-tgm-plugin-activation.php:379
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインを有効化する"
+
+#. translators: 1: install status, 2: update status
+#: parts/tgm/class-tgm-plugin-activation.php:2361
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: parts/tgm/class-tgm-plugin-activation.php:2407
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: parts/tgm/class-tgm-plugin-activation.php:2411
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "インストール <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: parts/tgm/class-tgm-plugin-activation.php:2415
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "アップデートあり <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: parts/tgm/class-tgm-plugin-activation.php:2419
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "有効化が必要 <span class=\"count\">(%s)</span>"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2501
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#: parts/tgm/class-tgm-plugin-activation.php:521
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "テーマとの互換性を保つため、このプラグインをアップデートする必要があります。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:522
+msgid "Update Required"
+msgstr "アップデートを要求"
+
+#: parts/tgm/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "このリモートプラグインパッケージには目的のスラッグのフォルダが含まれていないため、名前の変更が出来ませんでした。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:937
+#: parts/tgm/class-tgm-plugin-activation.php:945
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "プラグインの製作者に連絡し、WordPress のガイドラインに従ってプラグインをパッケージ化するよう依頼してください。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:1133
+#: parts/tgm/class-tgm-plugin-activation.php:2968
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "と"
+
+#: parts/tgm/class-tgm-plugin-activation.php:945
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "このリモートプラグインパッケージは複数のファイルで構成されていますが、ファイルがパッケージ化されていません。"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: parts/tgm/class-tgm-plugin-activation.php:2633
+msgid "Activate %2$s"
+msgstr "%2$s を有効化"
+
+#: parts/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations have been completed."
+msgstr "全てのインストールは正常に完了しました。"
+
+#: parts/tgm/class-tgm-plugin-activation.php:2552
+msgid "No plugins to install, update or activate."
+msgstr "インストール・更新・有効化可能なプラグインがありません。"
+
+#: 404.php:26
+msgid "The page does not exist, or has been moved. Try search or use menus to find what you are looking for."
+msgstr "このページは存在しないか移動されました。お探しのものを見つけるには検索バーやメニューをお使いください。"
+
+#: archive.php:58 index.php:54
+msgid "Posts Not Found!"
+msgstr "投稿が見つかりませんでした。"
+
+#: comments.php:21
+msgid "No Responses"
+msgstr "コメントなし"
+
+#: comments.php:21
+msgid "1 Response"
+msgstr "1件のコメント"
+
+#: comments.php:21
+msgid "% Responses"
+msgstr "%件のコメント"
+
+#: comments.php:46
+msgid "Comments"
+msgstr "コメント"
+
+#: comments.php:53
+msgid "Pingbacks"
+msgstr "ピンバック"
+
+#: parts/czr/class-cd-social-links.php:32
+msgid "[Coldbox] Social Links"
+msgstr "[Coldbox] ソーシャルリンク"
+
+#: parts/czr/class-cd-social-links.php:34
+msgid "Show the social links you have entered on the customizer."
+msgstr "カスタマイザー内で設定したソーシャルリンクを表示します。"
+
+#: parts/czr/class-cd-social-links.php:53
+#: parts/czr/class-cd-social-links.php:71
+msgid "Follow me"
+msgstr "Follow me"
+
+#: parts/czr/class-cd-social-links.php:77
+msgid "Title:"
+msgstr "タイトル:"
+
+#: parts/czr/customizer.php:84
+msgid "Sidebar Position"
+msgstr "サイドバーの位置"
+
+#: parts/czr/customizer.php:89
+msgid "Right Sidebar (default)"
+msgstr "右サイドバー (デフォルト)"
+
+#: parts/czr/customizer.php:90
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: parts/czr/customizer.php:91
+msgid "Bottom Sidebar"
+msgstr "下サイドバー"
+
+#: parts/czr/customizer.php:92
+msgid "Hide Sidebar"
+msgstr "サイドバーを非表示"
+
+#: parts/czr/customizer.php:110
+msgid "Site Max-Width"
+msgstr "サイトの最大幅"
+
+#: parts/czr/customizer.php:134
+msgid "Global Font Selecter"
+msgstr "フォント指定"
+
+#: parts/czr/customizer.php:169
+msgid "Custom Font-Family Value"
+msgstr "Font-Family の値"
+
+#. Translators: %s: [font] (shortcode)
+#: parts/czr/customizer.php:170
+msgid "\"%s\" will be replaced with the font you've chosen above"
+msgstr "“%s” は上部で選択したフォントに置き換えられます。"
+
+#: parts/czr/customizer.php:188
+msgid "Global Font Size for PC"
+msgstr "PC でのフォントサイズ"
+
+#: parts/czr/customizer.php:211
+msgid "Global Font Size for Mobile"
+msgstr "モバイルでのフォントサイズ"
+
+#: parts/czr/customizer.php:255
+msgid "Use highlight.js"
+msgstr "highlight.js を使う"
+
+#: parts/czr/customizer.php:256
+msgid "The package contains 23 common languages."
+msgstr "この highlight.js パッケージは23の主要プログラミング言語を含んでいます。"
+
+#: parts/czr/customizer.php:323
+msgid "Coldbox: Header Settings"
+msgstr "Coldbox: ヘッダー設定"
+
+#: parts/czr/customizer.php:362
+msgid "Display Site Title"
+msgstr "サイトのタイトルを表示"
+
+#: parts/czr/customizer.php:387
+msgid "Display Site Description"
+msgstr "キャッチフレーズを表示"
+
+#: parts/czr/customizer.php:433
+msgid "Header and Menu Direction"
+msgstr "ヘッダー / メニューの順序"
+
+#: parts/czr/customizer.php:437
+msgid "Vertical (column)"
+msgstr "垂直方向 (列)"
+
+#: parts/czr/customizer.php:438
+msgid "Horizontal (row)"
+msgstr "水平方向 (行)"
+
+#: parts/czr/customizer.php:457
+msgid "Make Header Sticky"
+msgstr "ヘッダーをスクロールに追尾させる"
+
+#: parts/czr/customizer.php:531
+msgid "Front Page Style"
+msgstr "トップページのスタイル"
+
+#: parts/czr/customizer.php:536 parts/czr/customizer.php:560
+msgid "Grid Style (default)"
+msgstr "グリッドスタイル (デフォルト)"
+
+#: parts/czr/customizer.php:537 parts/czr/customizer.php:561
+msgid "Standard Style"
+msgstr "スタンダードスタイル"
+
+#: parts/czr/customizer.php:555
+msgid "Archive Page Style"
+msgstr "アーカイブページのスタイル"
+
+#: parts/czr/customizer.php:621
+msgid "Excerpt Length"
+msgstr "抜粋に表示数する文字数"
+
+#: parts/czr/customizer.php:642
+msgid "Excerpt Ending"
+msgstr "抜粋の最後の文字列"
+
+#: parts/czr/customizer.php:661
+msgid "Use Placefolder Images when no Featured Image"
+msgstr "サムネイルが未設定の場合にプレースホルダ画像を使用する"
+
+#: parts/czr/customizer.php:680
+msgid "Display Post Date on Grid"
+msgstr "グリッド内に投稿日時を表示"
+
+#: parts/czr/customizer.php:698
+msgid "Display Categories on Grid"
+msgstr "グリッド内にカテゴリーを表示"
+
+#: parts/czr/customizer.php:716
+msgid "Display Comments Count on Grid"
+msgstr "グリッド内にコメント数のカウントを表示"
+
+#: parts/czr/customizer.php:751
+msgid "Settings for Content"
+msgstr "投稿内容の設定"
+
+#: parts/czr/customizer.php:808
+msgid "Settings for Metas"
+msgstr "メタ情報の設定"
+
+#: parts/czr/customizer.php:826 parts/czr/customizer.php:1117
+msgid "Display Post Dates"
+msgstr "投稿日時を表示"
+
+#: parts/czr/customizer.php:845
+msgid "Display the last Modified Dates"
+msgstr "最終更新日を表示"
+
+#: parts/czr/customizer.php:864
+msgid "Display Post Categories"
+msgstr "カテゴリーを表示"
+
+#: parts/czr/customizer.php:867
+msgid "Note: Categories are already shown on the breadcrum."
+msgstr "注: カテゴリーは既に上のパンくずリストで表示されています。"
+
+#: parts/czr/customizer.php:884
+msgid "Display Post Author"
+msgstr "投稿者名を表示"
+
+#: parts/czr/customizer.php:903
+msgid "Display Comments Count"
+msgstr "コメント数のカウントを表示"
+
+#: parts/czr/customizer.php:922
+msgid "Display Post Tags on Bottom"
+msgstr "タグを表示 (下エリア)"
+
+#: parts/czr/customizer.php:941
+msgid "Display Post Categories on Bottom"
+msgstr "カテゴリーを表示 (下エリア)"
+
+#: parts/czr/customizer.php:958
+msgid "Display Author Box"
+msgstr "投稿者の情報ボックスを表示"
+
+#: parts/czr/customizer.php:976
+msgid "Display Comments"
+msgstr "コメントを表示"
+
+#: parts/czr/customizer.php:995
+msgid "Display Post Navigation"
+msgstr "投稿の前後記事リンクを表示"
+
+#: parts/czr/customizer.php:1017
+msgid "Settings for Related Posts"
+msgstr "関連記事の設定"
+
+#: parts/czr/customizer.php:1035
+msgid "Display Related Posts"
+msgstr "関連記事を表示"
+
+#: parts/czr/customizer.php:1054
+msgid "Related Post - Max Articles"
+msgstr "関連記事の最大記事数"
+
+#: parts/czr/customizer.php:1076
+msgid "Related Post - Columns"
+msgstr "関連記事グリッドのカラム数"
+
+#: parts/czr/customizer.php:1094
+msgid "Coldbox: Static Pages Settings"
+msgstr "Coldbox: 固定ページ設定"
+
+#: parts/czr/customizer.php:1136
+msgid "Display Author Names"
+msgstr "投稿者名を表示"
+
+#: parts/czr/customizer.php:1155
+msgid "Display Comments Counts"
+msgstr "コメント数を表示"
+
+#: parts/czr/customizer.php:1171
+msgid "Coldbox: Footer Settings"
+msgstr "Coldbox: フッター設定"
+
+#: parts/czr/customizer.php:1188
+msgid "Display Theme Credit"
+msgstr "テーマクレジットを表示"
+
+#: parts/czr/customizer.php:1217
+msgid "Mirucon"
+msgstr "Mirucon"
+
+#: parts/czr/customizer.php:1283
+msgid "Primary Color"
+msgstr "プライマリーカラー"
+
+#: parts/czr/customizer.php:1303
+msgid "Secondary Color"
+msgstr "セカンダリーカラー"
+
+#: parts/czr/customizer.php:1323
+msgid "Header Background Color"
+msgstr "ヘッダー背景色"
+
+#: parts/czr/customizer.php:1402
+msgid "Footer Background Color"
+msgstr "フッター背景色"
+
+#: parts/czr/customizer.php:1491
+msgid "Show the social links on the author box"
+msgstr "投稿者情報ボックス内にソーシャルリンクを表示"
+
+#. Translators: %s: The feed URL
+#: parts/czr/social-links.php:71
+msgid "<p>Your Feed URL is: </p>%s"
+msgstr "<p>このサイトの Feed の URL: </p>%s"
+
+#. Translators: %s: The Feedly URL
+#: parts/czr/social-links.php:71
+msgid "<p>Your Feedly URL is: </p>%s"
+msgstr "<p>このサイトの Feedly の URL: </p>%s"
+
+#: parts/czr/social-links.php:81
+msgid "Coldbox: Social Links"
+msgstr "Coldbox: ソーシャルリンク"
+
+#: parts/czr/social-links.php:95 parts/czr/social-links.php:207
+msgid "RSS Feed"
+msgstr "RSS フィード"
+
+#: parts/czr/social-links.php:101 parts/czr/social-links.php:213
+msgid "Contact Form"
+msgstr "コンタクトフォーム"
+
+#: parts/czr/social-links.php:103 parts/czr/social-links.php:215
+msgid "Push Notification"
+msgstr "プッシュ通知"
+
+#: functions.php:200 functions.php:249
+msgid "Header Menu"
+msgstr "ヘッダーメニュー"
+
+#: functions.php:571
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:573 functions.php:584 functions.php:595 functions.php:606
+#: functions.php:617
+msgid "Add widgets here"
+msgstr "サイドバーに表示するウィジェットを選択してください。"
+
+#: page-templates/full-width.php:60 page.php:61
+msgid "Pages:"
+msgstr "ページ: "
+
+#: functions.php:1086
+msgid "Category:"
+msgstr "Category:"
+
+#: functions.php:1088
+msgid "Tag:"
+msgstr "Tag:"
+
+#: parts/page-title.php:24
+msgid "Search Results for:"
+msgstr "検索結果: "
+
+#: functions.php:1090
+msgid "Daily Archive:"
+msgstr "Daily Archive:"
+
+#: parts/czr/customizer-functions.php:411 parts/czr/customizer.php:1217
+msgid "Coldbox WordPress theme by"
+msgstr "Coldbox WordPress theme by"
+
+#: parts/czr/customizer.php:67
+msgid "Coldbox: Global Settings"
+msgstr "Coldbox: 一般設定"
+
+#: parts/czr/customizer.php:514
+msgid "Coldbox: Archive Pages Settings"
+msgstr "Coldbox: アーカイブページ設定"
+
+#: parts/czr/customizer.php:274
+msgid "Use highlight.js Web Package"
+msgstr "Web 開発系言語用の highlight.js を使う"
+
+#. Translators: %s: HTML Tags.
+#: parts/czr/customizer.php:1208
+msgid "This will be displayed in your footer area. You can use the following HTML tags: %s.<br/> Also there are some shortcodes you can use: <br/> [year] -> Displays this year, <br/> [url] -> Displays site URL, <br/> [name] -> Displays site name."
+msgstr ""
+"これはフッター内に表示されます。次の HTML タグ: %s <br/> とショートコードが使えます: <br/>[year] => 現在の年を表示<br/>\n"
+"[url] => サイトURLを表示<br/>\n"
+"[name] => サイト名を表示"
+
+#: parts/czr/customizer.php:786
+msgid "Add Decoration to H2-H5 Tags"
+msgstr "h2-h5 タグに装飾を追加"
+
+#. Author of the theme
+#: parts/czr/customizer-functions.php:411
+msgid "mirucon"
+msgstr "mirucon"
+
+#. Theme URI of the theme
+msgid "https://coldbox.miruc.co/"
+msgstr "https://coldbox.miruc.co/ja/"
+
+#. Author URI of the theme
+#: parts/czr/customizer-functions.php:411 parts/czr/customizer.php:1217
+msgid "https://miruc.co/"
+msgstr "https://miruc.co/"

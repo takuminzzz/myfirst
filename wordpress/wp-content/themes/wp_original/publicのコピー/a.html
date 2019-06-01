@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Step by Step JavaScript</title>
+<link href="common2.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="conditional03.js"></script>
+<link rel="stylesheet" href="css/slick.css" media="screen">
+<link rel="stylesheet" href="css/slick-theme.css" media="screen">
+<link rel="stylesheet" href="css/slick-custom.css" media="screen">
+
+</head>
+<body>
+<div id="main" class="container">
+<div id="header">
+<h1>Art</h1>
+
+<div class="mainPhoto">
+<ul class="slider center-item">
+     <li><a href="http://www.bestweb-link.net/PD-Museum-of-Art/960/index/Aivazovsky/No.016.jpg"target="_blank"><img src="image/zofski.jpg"></a></li>
+     <li><a href="http://www.bestweb-link.net/PD-Museum-of-Art/960/index/Delacroix/No.021.jpg"target="_blank"><img src="image/dorakuroa.jpg"></a></li>
+</ul>
+</div>
+
+<p>ＷＥＢで見れる海中の美術館をモチーフにしたサイトです。</p>
+
+
+</div>
+</div><!--/#content-->
+<div id="footer">
+
+</div><!--/#footer-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="ripples.min.js"></script>
+<script type="text/javascript" src="ripples.js"></script>
+<script src="js/slick.min.js"></script>
+
+<script>
+$(function() {
+    $('.center-item').slick({
+        infinite: true,
+        dots:true,
+        slidesToShow: 1,
+        autoplaySpeed: 3000,
+        speed: 1000,
+        centerMode: true, //要素を中央寄せ
+        centerPadding:'100px', //両サイドの見えている部分のサイズ
+        autoplay:true, //自動再生
+        responsive: [{
+                breakpoint: 480,
+                    settings: {
+                        centerMode: false,
+               }
+          }]
+     });
+});
+</script>
+</body>
+</html>
